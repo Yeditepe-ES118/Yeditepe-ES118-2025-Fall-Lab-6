@@ -26,8 +26,8 @@ def get_results_1():
 
 @pytest.fixture
 def get_results_2():
-    test_2_in = np.float64(np.loadtxt("./test_in.txt", delimiter=","))
-    test_2_out = np.float64(np.loadtxt("./test_out.txt", delimiter=","))
+    test_2_in = np.float64(np.loadtxt("tests/test_in.txt", delimiter=","))
+    test_2_out = np.float64(np.loadtxt("tests/test_out.txt", delimiter=","))
     return test_2_in, test_2_out
 
 
