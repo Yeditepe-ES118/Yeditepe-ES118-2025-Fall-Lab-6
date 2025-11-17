@@ -11,16 +11,16 @@ from lab6 import arrays, total_displacement
 
 @pytest.fixture
 def get_results_1():
-    test_1_out_array1 = np.float64(np.loadtxt("array1.txt",delimiter=","))
-    test_1_out_array2 = np.float64(np.loadtxt("array2.txt",delimiter=","))
-    test_1_out_array3 = np.float64(np.loadtxt("array3.txt",delimiter=","))
-    test_1_out_array4 = np.float64(np.loadtxt("array4.txt",delimiter=","))
-    test_1_out_array5 = np.float64(np.loadtxt("array5.txt",delimiter=","))
-    test_1_out_array6 = np.float64(np.loadtxt("array6.txt",delimiter=","))
-    test_1_out_array7 = np.float64(np.loadtxt("array7.txt",delimiter=","))
-    test_1_out_array8 = np.float64(np.loadtxt("array8.txt",delimiter=","))
-    test_1_out_array9 = np.float64(np.loadtxt("array9.txt",delimiter=","))
-    test_1_out_array10 =np.float64(np.loadtxt("array10.txt",delimiter=","))                            
+    test_1_out_array1 = np.float64(np.loadtxt("tests/array1.txt",delimiter=","))
+    test_1_out_array2 = np.float64(np.loadtxt("tests/array2.txt",delimiter=","))
+    test_1_out_array3 = np.float64(np.loadtxt("tests/array3.txt",delimiter=","))
+    test_1_out_array4 = np.float64(np.loadtxt("tests/array4.txt",delimiter=","))
+    test_1_out_array5 = np.float64(np.loadtxt("tests/array5.txt",delimiter=","))
+    test_1_out_array6 = np.float64(np.loadtxt("tests/array6.txt",delimiter=","))
+    test_1_out_array7 = np.float64(np.loadtxt("tests/array7.txt",delimiter=","))
+    test_1_out_array8 = np.float64(np.loadtxt("tests/array8.txt",delimiter=","))
+    test_1_out_array9 = np.float64(np.loadtxt("tests/array9.txt",delimiter=","))
+    test_1_out_array10 =np.float64(np.loadtxt("tests/array10.txt",delimiter=","))                            
     return test_1_out_array1, test_1_out_array2, test_1_out_array3, test_1_out_array4, test_1_out_array5, test_1_out_array6, test_1_out_array7, test_1_out_array8, test_1_out_array9, test_1_out_array10 
 
 
